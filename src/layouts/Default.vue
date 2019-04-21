@@ -2,10 +2,9 @@
   <div class="layout">
     <header class="header">
       <strong>
-        <g-link class="text-xl" to="/">{{ $static.metaData.siteName }}</g-link>
+        <g-link class="logo-home" to="/">{{ $static.metaData.siteName }}</g-link>
       </strong>
       <nav class="nav">
-         
         <g-link class="nav__link" to="/"><b-button variant="link">Home</b-button></g-link>
         <g-link class="nav__link" to="/about"><b-button variant="link">About</b-button></g-link>
       </nav>
@@ -43,6 +42,10 @@ body {
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
+}
+
+.logo-home {
+  font-size: 24px;
 }
 
 .nav__link {
