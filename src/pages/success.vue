@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>Success!</h1>
+    <h1 class="mb-4">Success!</h1>
     <p>Your message have been successfully sent!</p>
   </Layout>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>About us</h1>
+    <h1 class="mb-4">About us</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, platea elementum mus lectus molestie et. Conubia taciti nunc proin vehicula et nascetur lacinia commodo non, penatibus vel dui pharetra inceptos himenaeos orci viverra ad, quis ullamcorper sit scelerisque nibh praesent imperdiet vulputate.</p>
 
     <p>Eros morbi himenaeos eget sagittis parturient, netus sapien pharetra semper iaculis orci, elementum ullamcorper eleifend aenean. Orci ligula euismod taciti conubia facilisis mattis laoreet, cras aliquam ultrices purus augue morbi, a litora feugiat dapibus per lacinia. </p>

@@ -1,7 +1,8 @@
 <template>
   <Layout>
+    <h1 class="mb-4">Bootstrap examples</h1>
     
-    <b-alert class="mt-5" variant="warning" show>Hello World!</b-alert>
+    <b-alert class="mt-4" variant="warning" show>Hello World!</b-alert>
 
     <div class="my-5">
       <b-card

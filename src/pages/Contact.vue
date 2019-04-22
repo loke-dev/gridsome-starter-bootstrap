@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>Contact</h1>
+    <h1 class="mb-4">Contact</h1>
     <div>
       <b-form 
         name="contact"
