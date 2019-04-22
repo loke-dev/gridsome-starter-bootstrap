@@ -10,13 +10,13 @@
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
-      <input type="hidden" name="form-name" value="contact" />
+      <input type="hidden" name="name" value="contact" />
       <p hidden>
         <label>
           Don’t fill this out: <input name="bot-field" />
         </label>
       </p>
-        <b-form-group label="Name:">
+        <b-form-group id="input-group-2" label="Name:" label-for="form-name">
           <b-form-input
             id="name"
             name="name"
@@ -27,7 +27,9 @@
         </b-form-group>
 
         <b-form-group
+          id="input-group-1"
           label="Email:"
+          label-for="email"
         >
           <b-form-input
             id="email"
@@ -39,9 +41,10 @@
           />
         </b-form-group>
 
-        <b-form-group label="Message:">
+        <b-form-group id="input-group-3" label="Message:" label-for="message">
           <b-form-textarea
             id="message"
+            name="message"
             v-model="form.message"
             required
             placeholder="Enter message"
