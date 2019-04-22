@@ -23,7 +23,7 @@
 
 <page-query>
 query Blog {
-	posts: allBlogPost {
+	posts: allBlogPost(sortBy: "date") {
     edges {
       node {
         id
