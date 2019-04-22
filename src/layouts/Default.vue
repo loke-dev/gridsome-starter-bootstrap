@@ -5,7 +5,7 @@
         <g-link class="logo-home" to="/">{{ $static.metaData.siteName }}</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/examples">Examples</g-link>
+        <g-link class="nav__link" to="/blog">Blog</g-link>
         <g-link class="nav__link" to="/about">About</g-link>
         <g-link class="nav__link" to="/contact">Contact</g-link>
       </nav>
