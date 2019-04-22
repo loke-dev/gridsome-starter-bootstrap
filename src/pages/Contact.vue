@@ -19,29 +19,31 @@
         <b-form-group
           id="input-group-1"
           label="Email address:"
-          label-for="input-1"
+          label-for="email"
         >
           <b-form-input
-            id="input-1"
+            id="email"
             v-model="form.email"
+            name="email"
             type="email"
             required
             placeholder="Enter email"
           />
         </b-form-group>
 
-        <b-form-group id="input-group-2" label="Your Name:" label-for="input-2">
+        <b-form-group id="input-group-2" label="Your Name:" label-for="name">
           <b-form-input
-            id="input-2"
+            id="name"
+            name="name"
             v-model="form.name"
             required
             placeholder="Enter name"
           />
         </b-form-group>
 
-        <b-form-group id="input-group-3" label="Message:" label-for="input-3">
+        <b-form-group id="input-group-3" label="Message:" label-for="message">
           <b-form-textarea
-            id="input-3"
+            id="message"
             v-model="form.message"
             required
             placeholder="Enter message"
