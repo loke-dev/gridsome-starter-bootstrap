@@ -16,6 +16,16 @@
           Don’t fill this out: <input name="bot-field" />
         </label>
       </p>
+        <b-form-group id="input-group-2" label="Your Name:" label-for="name">
+          <b-form-input
+            id="name"
+            name="name"
+            v-model="form.name"
+            required
+            placeholder="Enter name"
+          />
+        </b-form-group>
+
         <b-form-group
           id="input-group-1"
           label="Email address:"
@@ -28,16 +38,6 @@
             type="email"
             required
             placeholder="Enter email"
-          />
-        </b-form-group>
-
-        <b-form-group id="input-group-2" label="Your Name:" label-for="name">
-          <b-form-input
-            id="name"
-            name="name"
-            v-model="form.name"
-            required
-            placeholder="Enter name"
           />
         </b-form-group>
 
@@ -64,8 +64,8 @@
     data() {
       return {
         form: {
-          email: '',
           name: '',
+          email: '',
           message: '',
         },
       }
