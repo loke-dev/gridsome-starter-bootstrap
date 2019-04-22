@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <parallax speedFactor=0.2 class="parallax-image mb-4">
+    <parallax :if="!this.$isServer" :speedFactor="0.2" class="parallax-image mb-4">
       <g-image :src="$page.post.image" />
     </parallax>
     <div class="blogPost">
@@ -45,6 +45,9 @@ export default {
   components: {
     Parallax,
     BlogContent,
+  },
+  mounted() {
+    console.log(this)
   },
   metaInfo() {
     return {
