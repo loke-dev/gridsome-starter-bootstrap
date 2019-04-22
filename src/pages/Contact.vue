@@ -16,7 +16,7 @@
           Don’t fill this out: <input name="bot-field" />
         </label>
       </p>
-        <b-form-group id="input-group-2" label="Your Name:" label-for="name">
+        <b-form-group label="Name:">
           <b-form-input
             id="name"
             name="name"
@@ -27,9 +27,7 @@
         </b-form-group>
 
         <b-form-group
-          id="input-group-1"
-          label="Email address:"
-          label-for="email"
+          label="Email:"
         >
           <b-form-input
             id="email"
@@ -41,7 +39,7 @@
           />
         </b-form-group>
 
-        <b-form-group id="input-group-3" label="Message:" label-for="message">
+        <b-form-group label="Message:">
           <b-form-textarea
             id="message"
             v-model="form.message"
