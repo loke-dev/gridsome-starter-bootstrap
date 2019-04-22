@@ -1,8 +1,6 @@
 <template>
   <Layout>
-    <parallax :if="!this.$isServer" :speedFactor="0.2" class="parallax-image mb-4">
-      <g-image :src="$page.post.image" />
-    </parallax>
+    <g-image class="blogImage mb-4" :src="$page.post.image" />
     <div class="blogPost">
       <h1 v-html="$page.post.title" class="mb-4"/>
       <div class="meta">
@@ -38,16 +36,11 @@ query BlogPost ($path: String!) {
 </page-query>
 
 <script>
-import Parallax from 'vue-parallaxy'
 import BlogContent from '@/components/BlogContent'
 
 export default {
   components: {
-    Parallax,
     BlogContent,
-  },
-  mounted() {
-    console.log(this)
   },
   metaInfo() {
     return {
@@ -72,8 +65,9 @@ export default {
   }
 }
 
-.Masthead {
-  min-height: inherit;
+.blogImage {
   max-height: 400px;
+  width: 100%;
+  object-fit: cover;
 }
 </style>

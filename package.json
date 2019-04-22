@@ -14,7 +14,6 @@
     "bootstrap-vue": "^2.0.0-rc.18",
     "gridsome": "^0.5.0",
     "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0",
-    "vue-parallaxy": "^1.1.1"
+    "sass-loader": "^7.1.0"
   }
 }
