@@ -1,16 +1,19 @@
 <template>
   <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link class="logo-home" to="/">{{ $static.metaData.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/blog">Blog</g-link>
-        <g-link class="nav__link" to="/about">About</g-link>
-        <g-link class="nav__link" to="/contact">Contact</g-link>
-      </nav>
-    </header>
-    <slot/>
+    <div id="content-wrapper">
+      <header class="header">
+        <strong>
+          <g-link class="logo-home" to="/">{{ $static.metaData.siteName }}</g-link>
+        </strong>
+        <nav class="nav">
+          <g-link class="nav__link" to="/blog">Blog</g-link>
+          <g-link class="nav__link" to="/about">About</g-link>
+          <g-link class="nav__link" to="/contact">Contact</g-link>
+        </nav>
+      </header>
+      <slot/>
+    </div>
+    <Footer/>
   </div>
 </template>
 
@@ -22,7 +25,21 @@ query {
 }
 </static-query>
 
+<script>
+import Footer from '../components/Footer'
+export default {
+  components: {
+    Footer
+  }
+}
+</script>
+
+
 <style>
+body, html {
+  height: 100%;
+}
+
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   margin:0;
@@ -30,11 +47,16 @@ body {
   line-height: 1.5;
 }
 
-.layout {
-  max-width: 950px;
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#content-wrapper {
+  flex: 1 0 auto;
+  width: 950px;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .header {
