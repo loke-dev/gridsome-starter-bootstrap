@@ -8,7 +8,8 @@
 
 ## Features
 - Beautiful and simple design.
-- Markdown for documentation.
+- Markdown for blog posts.
+- Contact form for Netlify forms.
 - Perfect score on Google Lighthouse.
 
 ## Demo
