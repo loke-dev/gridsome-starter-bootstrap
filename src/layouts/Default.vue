@@ -5,8 +5,9 @@
         <g-link class="logo-home" to="/">{{ $static.metaData.siteName }}</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/"><b-button variant="link">Home</b-button></g-link>
-        <g-link class="nav__link" to="/about"><b-button variant="link">About</b-button></g-link>
+        <g-link class="nav__link" to="/">Home</g-link>
+        <g-link class="nav__link" to="/examples">Examples</g-link>
+        <g-link class="nav__link" to="/about">About</g-link>
       </nav>
     </header>
     <slot/>
@@ -30,7 +31,7 @@ body {
 }
 
 .layout {
-  max-width: 760px;
+  max-width: 950px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -50,5 +51,9 @@ body {
 
 .nav__link {
   margin-left: 20px;
+}
+
+.active--exact {
+  font-weight: bold;
 }
 </style>
