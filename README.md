@@ -7,10 +7,12 @@
 > A starter project, perfect for your documentation site.
 
 ## Features
-- Beautiful and simple design.
+- Bootstrap & Bootstrap Vue out of the box.
 - Markdown for blog posts.
 - Contact form for Netlify forms.
+- Beautiful and simple design.
 - Perfect score on Google Lighthouse.
+- Blazing fast.
 
 ## Demo
 
