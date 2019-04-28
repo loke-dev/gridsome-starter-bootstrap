@@ -68,6 +68,5 @@ export default {
 .blogImage {
   max-height: 400px;
   width: 100%;
-  object-fit: cover;
 }
 </style>
