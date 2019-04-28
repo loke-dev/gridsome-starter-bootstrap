@@ -1,11 +1,13 @@
 <template>
   <Layout>
     <h1 class="mb-4">
-      Hello World!  
+      Hello  and welcome!  
     </h1>
 
+    <g-image class="greet-image" src="../assets/images/hello.svg" />
+
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
+      This is a starter project 
     </p>
 
     <p class="home-links mt-5">
@@ -26,5 +28,13 @@ export default {
 <style>
 .home-links a {
   margin-right: 1rem;
+}
+
+.greet-image {
+  display: block;
+  margin: auto;
+  width: 90%;
+  max-width: 500px;
+  padding-bottom: 50px;
 }
 </style>
