@@ -3,7 +3,7 @@ title: Cupcake ipsum
 excerpt: Cupcake ipsum dolor. Sit amet fruitcake jelly-o pie ice cream. Candy jujubes croissant donut oat cake jelly-o brownie jelly-o.
 date: 2019-04-18 17:00:00 +0000
 author: Loke Carlsson
-image: "./images/cupcake.svg"
+image: "/uploads/cupcake.svg"
 ---
 
 Cupcake ipsum dolor. Sit amet fruitcake jelly-o pie ice cream. Candy jujubes croissant donut oat cake jelly-o brownie jelly-o. Cotton candy sweet cheesecake topping cake tiramisu tart. Chocolate cake powder caramels carrot cake carrot cake sugar plum powder. Danish lemon drops chocolate liquorice marzipan halvah. Cake powder pudding tiramisu. Cheesecake jelly pudding tart jelly-o gingerbread chocolate halvah. Ice cream jujubes liquorice ice cream candy canes oat cake croissant. Biscuit danish carrot cake tart carrot cake dragée pastry. Ice cream bonbon chocolate cotton candy sesame snaps chocolate pudding wafer ice cream. Brownie tart jelly-o gingerbread bear claw pastry sweet roll biscuit.

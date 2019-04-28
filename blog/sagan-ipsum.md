@@ -3,7 +3,7 @@ title: Sagan ipsum
 excerpt: Hydrogen atoms colonies bits of moving fluff cosmic fugue gathered by gravity shores of the cosmic ocean.
 date: 2019-04-21 17:00:00 +0000
 author: Loke Carlsson
-image: "./images/space.svg"
+image: "/uploads/space.svg"
 ---
 
 Billions upon billions Tunguska event galaxies rich in mystery decipherment billions upon billions. Bits of moving fluff rings of Uranus made in the interiors of collapsing stars from which we spring bits of moving fluff star stuff harvesting star light. The ash of stellar alchemy a mote of dust suspended in a sunbeam kindling the energy hidden in matter take root and flourish star stuff harvesting star light are creatures of the cosmos.

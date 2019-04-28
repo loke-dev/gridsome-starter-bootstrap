@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <img class="greet-image" src="../assets/images/hello.svg" />
+    <img class="greet-image" src="../../uploads/hello.svg" />
 
     <h2 class="mb-4">Gridsome starter bootstrap</h2>
     <p>
