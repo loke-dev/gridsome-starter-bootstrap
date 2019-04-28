@@ -2,6 +2,7 @@
   <Layout>
     <h1 class="mb-4">Contact</h1>
     <div>
+      <g-image class="contact-image" src="../assets/images/contact.svg" />
       <b-form 
         name="contact"
         method="post"
@@ -92,3 +93,12 @@
     }
   }
 </script>
+
+<style scoped lang="scss">
+.contact-image {
+  display: block;
+  margin: auto;
+  width: 90%;
+  max-width: 500px;
+}
+</style>
