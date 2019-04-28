@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="d-flex">
-    <g-image class="" src="../assets/images/404.svg" />
+    <img class="" src="../assets/images/404.svg" />
     </div>
   </Layout>
 </template>

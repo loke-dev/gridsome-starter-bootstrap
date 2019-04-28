@@ -2,7 +2,7 @@
   <Layout>
     <h1 class="mb-4">Contact</h1>
     <div>
-      <g-image class="contact-image mb-4" src="../assets/images/email.svg" />
+      <img class="contact-image mb-4" src="../assets/images/email.svg" />
       <b-form 
         name="contact"
         method="post"
