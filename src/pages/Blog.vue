@@ -13,7 +13,7 @@
       <g-image :src="item.node.image" class="mr-3" alt="image" />
       <div class="media-body">
         <h5 class="mt-0">{{item.node.title}}</h5>
-        {{item.node.excerpt}}
+        <p class="text-dark">{{item.node.excerpt}}</p>
       </div>
     </div>
 
