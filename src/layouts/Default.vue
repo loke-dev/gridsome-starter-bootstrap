@@ -1,41 +1,27 @@
 <template>
   <div class="layout">
     <div id="content-wrapper">
-      <header class="header">
-        <strong>
-          <g-link class="logo-home" to="/">{{ $static.metaData.siteName }}</g-link>
-        </strong>
-        <nav class="nav">
-          <g-link class="nav__link" to="/blog">Blog</g-link>
-          <g-link class="nav__link" to="/about">About</g-link>
-          <g-link class="nav__link" to="/contact">Contact</g-link>
-        </nav>
-      </header>
+      <Header/>
       <slot/>
     </div>
     <Footer/>
   </div>
 </template>
 
-<static-query>
-query {
-  metaData {
-    siteName
-  }
-}
-</static-query>
-
 <script>
 import Footer from '../components/Footer'
+import Header from '../components/Header'
+
 export default {
   components: {
-    Footer
-  }
+    Footer,
+    Header,
+  },
 }
 </script>
 
 
-<style>
+<style lang="scss">
 body, html {
   height: 100%;
 }
@@ -55,27 +41,8 @@ body {
 
 #content-wrapper {
   flex: 1 0 auto;
-  width: 950px;
+  max-width: 950px;
+  width: 90vw;
   margin: 0 auto;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.logo-home {
-  font-size: 24px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
-
-.active--exact {
-  font-weight: bold;
 }
 </style>
