@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="d-flex">
-    <g-image class="" src="../assets/images/undraw_page_not_found_su7k.svg" />
+    <g-image class="" src="../assets/images/404.svg" />
     </div>
   </Layout>
 </template>
