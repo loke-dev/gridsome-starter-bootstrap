@@ -8,6 +8,10 @@ This is a starter project for Gridsome that comes with many features out of the 
 
 It is designed to use Netlify, Forestry and Github which all have very fair free tier to their services, so you wont need to pay for monthly subscriptions and costly hosting fees.
 
+### Demo
+
+[https://gridsome-starter-bootstrap.loke.dev](https://gridsome-starter-bootstrap.loke.dev)
+
 ### Features
 
 This starter project includes some of the latest powerful technologies.
