@@ -21,7 +21,7 @@ build:
   preview_docker_image: node:10
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: npm run develop
+  instant_preview_command: npm run dev
   publish_command: vuepress build -d .vuepress/dist
   output_directory: ".vuepress/dist"
   preview_command: vuepress build -d .vuepress/dist
