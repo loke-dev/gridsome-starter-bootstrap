@@ -14,7 +14,7 @@ public_path: "/uploads"
 front_matter_path: "../uploads"
 use_front_matter_path: false
 file_template: ":filename:"
-instant_preview: true
+instant_preview: false
 build:
   preview_output_directory: dist
   install_dependencies_command: npm install
@@ -22,3 +22,6 @@ build:
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: gridsome develop
+  publish_command: vuepress build -d .vuepress/dist
+  output_directory: ".vuepress/dist"
+  preview_command: vuepress build -d .vuepress/dist
