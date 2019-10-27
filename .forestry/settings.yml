@@ -7,12 +7,12 @@ sections:
 - type: directory
   path: blog
   label: Blog
-  create: documents
-  match: "**/*.md"
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
-front_matter_path: ''
-use_front_matter_path: false
+front_matter_path: "../uploads"
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_output_directory: dist
