@@ -29,7 +29,7 @@ This starter project includes some of the latest powerful technologies.
 
 The easiest way to get started quick is to use the Forestry button below, which will create a Github repository for you, clone this starter repo and import all data to the CMS. After that is complete, you can just go to [Netlify](https://www.netlify.com/) and connect your newly created project that will set it up for automatic deployment when you commit to the Github repo.
 
-[![Import this project into Forestry](https://camo.githubusercontent.com/2455e97e4e989374a355fb0bea7ad364f2561c92/68747470733a2f2f6173736574732e666f7265737472792e696f2f696d706f72742d746f2d666f7265737472794b2e737667)](https://app.forestry.io/quick-start?repo=LokeCarlsson/gridsome-starter-bootstrap&provider=github&engine=vuepress) 
+[![Import this project into Forestry](https://camo.githubusercontent.com/2455e97e4e989374a355fb0bea7ad364f2561c92/68747470733a2f2f6173736574732e666f7265737472792e696f2f696d706f72742d746f2d666f7265737472794b2e737667)](https://app.forestry.io/quick-start?repo=LokeCarlsson/gridsome-starter-bootstrap&provider=github&engine=vuepress) [![Greenkeeper badge](https://badges.greenkeeper.io/LokeCarlsson/gridsome-starter-bootstrap.svg)](https://greenkeeper.io/) 
 
 ### Netlify config
 
