@@ -10,7 +10,7 @@
     "@gridsome/plugin-sitemap": "^0.3.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.0",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.0.4",
     "gridsome": "^0.7.9",
     "node-sass": "^4.13.0",
