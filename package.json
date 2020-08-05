@@ -12,7 +12,7 @@
     "@gridsome/transformer-remark": "^0.6.0",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.4",
-    "gridsome": "^0.7.9",
+    "gridsome": "^0.7.19",
     "node-sass": "^4.13.0",
     "sass-loader": "^7.0.0"
   }
