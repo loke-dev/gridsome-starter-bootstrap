@@ -13,7 +13,7 @@
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.21.2",
     "gridsome": "^0.7.23",
-    "sass": "^1.38.0",
+    "sass": "^1.38.1",
     "sass-loader": "7.3.1"
   }
 }
